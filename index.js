@@ -27,8 +27,9 @@ for (const folder of commandFolders) {
     }
 }
 
-client.on(Events.InteractionCreate, interaction => {
+client.on(Events.InteractionCreate, async interaction => {
     if (!interaction.isChatInputCommand()) return;
+
     const command = interaction.client.commands.get(interaction.commandName);
 
     if (!command) {
