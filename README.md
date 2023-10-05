@@ -19,6 +19,12 @@ GUILDID=Guild-ID-Here
 ```
 node index.js
 ```
+4. Reload Commands
+```
+node deploy-commands.js
+```
+
+Brought to you by [QuentinS](https://quentins.dev)
 
 
 
