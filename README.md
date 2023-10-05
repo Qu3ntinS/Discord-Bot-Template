@@ -2,6 +2,21 @@
 Template for Discord bot with / Commands Wrapper based on dotenv configuration
 
 
+### Setup
+
+
+Install Dependencies
+```
+npm install
+```
+
+Create and Config the .env
+
+Start the bot
+```
+node index.js
+```
+
 
 ### .env Layout
 ```
